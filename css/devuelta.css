@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el cuerpo y la página */
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #871010;
+    width: 100%;
+}
+
+/* Estilos para el contenedor del título */
+.conteTi {
+    background: linear-gradient(to right, #efb810, #ffffff, #fffc5e, #efb810, #ffffff, #fffc5e, #efb810, #ffffff, #fffc5e); /* Cambia los colores según lo necesites */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+/* Estilos para la imagen específica (que queremos mostrar debajo del texto) */
+.imagen-especifica {
+    display: none; /* Oculta la imagen por defecto */
+}
+
+/* Estilos para dispositivos con ancho y alto de 390x844 */
+@media (max-width: 391px){
+    .tittleImg {
+        display: none; /* Oculta las imágenes */
+    }
+    .imagen-especifica {
+        display: block; /* Muestra la imagen específica */
+        position: relative;
+        bottom: 1vh;
+        left: 8vh;       
+    }
+    .conteTi{
+        display: flow-root;
+    }
+}
+
+/* Estilos para el título */
+.titulo {
+    font-size: 4vh;
+    text-align: center;
+}
+
+
+/* inicio de links */
+.links {
+    text-align: center;
+    /* Utilizando un gradiente lineal */
+    background: linear-gradient(to right, #efb810, #ffa3a3, #fffd76, #efb810, #ffa3a3, #fffd76, #efb810, #ffa3a3, #fffd76); /* Cambia los colores según lo necesites */
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 60px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    background: linear-gradient(to right, #ffd968, #cbb300, #fffd76); /* Cambia los colores según lo necesites */
+    border-radius: 30px;
+
+}
+
+/* fin de links */
+
+.ejem{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
