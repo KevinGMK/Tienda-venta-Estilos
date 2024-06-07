@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #871010;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo {
+    position: relative;
+    font-size: 35px;
+    bottom: 43px;
+    width: 100%;
+    text-align: center;
+    /* Utilizando un gradiente lineal */
+    background: linear-gradient(to right, #efb810, #ffffff, #fffc5e, #efb810, #ffffff, #fffc5e, #efb810, #ffffff, #fffc5e); /* Cambia los colores según lo necesites */
+}
+
+.link {
+    position: relative;
+    bottom: 85px;
+    width: 100%;
+    text-align: center;
+    /* Utilizando un gradiente lineal */
+    background: linear-gradient(to right, #efb810, #ffa3a3, #fffd76, #efb810, #ffa3a3, #fffd76, #efb810, #ffa3a3, #fffd76); /* Cambia los colores según lo necesites */
+}
+
+aside{
+    color: white;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    bottom: 85px;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 60px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.contenedores {
+    display: flex;
+    gap: 50px; /* Espacio entre los elementos flexibles */
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-container {
+    border: 3px solid;
+    text-align: center;
+    border-radius: 60px;
+    background-color: rgba(252, 122, 28, 0.4);
+    margin: 0 10px;
+    box-shadow: 20px 20px 10px black;
+    flex: 1; /* Para que los elementos ocupen todo el espacio disponible */
+     /* Establece un ancho máximo para los elementos */
+}
+
+p{
+    margin: 0px 50px 50px;
+}
+
+img {
+    border-radius: 50px;
+    margin-top: 15px;
+    height: 30vh;
+    width: 20vh;
+}
